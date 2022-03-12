@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mi8937.mk
+    $(LOCAL_DIR)/havoc_mi8937.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mi8937-user \
-    lineage_mi8937-userdebug \
-    lineage_mi8937-eng
+    havoc_mi8937-user \
+    havoc_mi8937-userdebug \
+    havoc_mi8937-eng
