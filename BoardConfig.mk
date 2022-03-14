@@ -39,3 +39,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/biometrics/sepolicy
 
 # Inherit from the proprietary version
 include vendor/xiaomi/mi8937/BoardConfigVendor.mk
+
+# Include system.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
