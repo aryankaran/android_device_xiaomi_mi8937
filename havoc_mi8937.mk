@@ -26,6 +26,9 @@ PRODUCT_PACKAGES += \
     xiaomi_rolex_overlay_lineage \
     xiaomi_riva_overlay_lineage
 
+# Havoc Props
+HAVOC_BUILD_TYPE := Official
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mi8937
 PRODUCT_NAME := havoc_mi8937
